@@ -15,7 +15,7 @@
             <div class="aaa" v-show="show">aaaa</div>
         </transition>
         <div class="">
-            <!--输入abc匹配到就会左右出现消失 fadein等皆可-->
+            <!--输入abc匹配到就会左右出现消失-->
             <input v-model="msg">
             <transition-group name="fade" enter-active-class="animated zoomInLeft" leave-active-class="animated zoomOutRight">
                 <p v-show="msg" v-for="(item,index) in newArr" :key="index">{{item}}</p>

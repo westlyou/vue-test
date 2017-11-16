@@ -58,3 +58,6 @@ Notification.requestPermission(function (status) {
 ```
 ## zrn-utils
 初步尝试,可以使用 npm发布成功,按需加载和全部加载都可以
+
+## easy-mock
+使用mock.js语法 在线文档管理?

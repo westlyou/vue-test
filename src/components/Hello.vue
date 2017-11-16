@@ -10,6 +10,7 @@
         <ul>
             <li><router-link to="/scroll">测试betterscroll</router-link></li>
             <li><router-link to="/animate-css">测试animate.css</router-link></li>
+            <li><router-link to="/easy-mock">测试easy-mock 使用mock.js语法</router-link></li>
         </ul>
     </div>
 </template>
