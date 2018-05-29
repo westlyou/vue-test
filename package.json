@@ -16,6 +16,7 @@
     "better-scroll": "^1.4.1",
     "core-js": "^2.5.1",
     "easy-mock-cli": "^0.2.2",
+    "lazy-load-imgs": "^1.0.2",
     "lodash": "^4.17.4",
     "mockjs": "^1.0.1-beta3",
     "moment": "^2.18.1",

@@ -1,15 +1,11 @@
 <template>
     <div class="hello">
-        <h1>{{ msg }}</h1>
-        <h2>Essential Links</h2>
-        <div class="svg">
-            <img src="../assets/test.svg" alt="">
-        </div>
         <div class="gradient"></div>
         <p @click = " testToast">{{name}}</p>
         <ul>
             <li><router-link to="/scroll">测试betterscroll</router-link></li>
             <li><router-link to="/animate-css">测试animate.css</router-link></li>
+            <li><router-link to="/lazy-load-img">测试lazy-load-imgs</router-link></li>
             <li><router-link to="/easy-mock">测试easy-mock 使用mock.js语法</router-link></li>
         </ul>
     </div>
@@ -55,15 +51,6 @@
 
     .hello {
         display: flex;
-    }
-
-    .svg {
-        width: 200px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #000;
     }
 
     img {

@@ -4,6 +4,7 @@ import Hello from '@/components/Hello';
 import scroll from '@/components/scroll';
 import animate from '@/components/animate-css';
 import easyMock from '@/components/easy-mock';
+import lazyLoad from '@/components/lazy-load-img';
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
             path: '/easy-mock',
             name: 'easyMock',
             component: easyMock,
+        } ,
+        {
+            path: '/lazy-load-img',
+            name: 'lazyLoad',
+            component: lazyLoad,
         }
     ],
 });
